@@ -2,7 +2,7 @@
 <extension version="2.5" type="package" method="upgrade">
     <name>pkg_gantry</name>
     <packagename>gantry</packagename>
-    <version>4.1.431</version>
+    <version>4.1.432</version>
     <creationDate>July  2, 2022</creationDate>
     <author>RocketTheme, LLC/ RA modified for PHP 8.0</author>
     <authorEmail>support@rockettheme.com</authorEmail>
