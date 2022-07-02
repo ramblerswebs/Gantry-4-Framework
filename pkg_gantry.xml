@@ -2,9 +2,9 @@
 <extension version="2.5" type="package" method="upgrade">
     <name>pkg_gantry</name>
     <packagename>gantry</packagename>
-    <version>4.1.43</version>
-    <creationDate>April  1, 2020</creationDate>
-    <author>RocketTheme, LLC</author>
+    <version>4.1.431</version>
+    <creationDate>July  2, 2022</creationDate>
+    <author>RocketTheme, LLC/ RA modified for PHP 8.0</author>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
     <copyright>(C) 2005 - 2020 RocketTheme, LLC. All rights reserved.</copyright>
@@ -19,7 +19,7 @@
         <!-- Gantry framework library -->
         <file type="library"                      id="gantry"              enabled="1">lib_gantry-4.1.43.zip</file>
         <!-- Administration component -->
-        <file type="component"                    id="com_gantry"          enabled="1">com_gantry-4.1.43.zip</file>
+        <file type="component"                    id="com_gantry"          enabled="1">com_gantry-4.1.431.zip</file>
     </files>
 
     <languages folder="language">
@@ -27,7 +27,6 @@
     </languages>
 
     <updateservers>
-        <server type="extension" priority="1" name="Gantry">http://updates.gantry.org/4.0/joomla/pkg_gantry.xml</server>
-        <server type="collection" priority="2" name="Gantry">http://updates.gantry.org/4.0/joomla/list.xml</server>
+        <server type="extension" priority="1" name="Gantry">https://raw.githubusercontent.com/ramblerswebs/updates/master/updates/ragantrypackage.xml</server>
     </updateservers>
 </extension>
