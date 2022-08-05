@@ -2,8 +2,8 @@
 <extension version="2.5" type="package" method="upgrade">
     <name>pkg_gantry</name>
     <packagename>gantry</packagename>
-    <version>4.1.432</version>
-    <creationDate>July  2, 2022</creationDate>
+    <version>4.1.433</version>
+    <creationDate>August 5, 2022</creationDate>
     <author>RocketTheme, LLC/ RA modified for PHP 8.0</author>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
@@ -15,7 +15,7 @@
 
     <files folder="packages">
         <!-- Mandatory system plugin -->
-        <file type="plugin"    group="system"     id="gantry"              enabled="1">plg_system_gantry-4.1.43.zip</file>
+        <file type="plugin"    group="system"     id="gantry"              enabled="1">plg_system_gantry-4.1.433.zip</file>
         <!-- Gantry framework library -->
         <file type="library"                      id="gantry"              enabled="1">lib_gantry-4.1.43.zip</file>
         <!-- Administration component -->
